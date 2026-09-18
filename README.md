@@ -11,12 +11,19 @@ Cómo compilar y ejecutar
 
 ### bash
 javac -d out $(find src -name "*.java")
+ 
 java -cp out app.Main
 
 ## Estructura del proyecto
-src/
-├── modality/    Abstract Factory + Factory Method (familias por modalidad)
-├── collection/  Builder (registro de colecta inmutable)
-├── campaign/    Prototype (plantillas de jornada móvil)
-├── service/     Lógica pura de inventario (sin patrones)
-└── app/         Main.java — programa de demostración
+
+src /
+
+ ├── modality/    Abstract Factory + Factory Method (familias por modalidad)
+ 
+ ├── collection/  Builder (registro de colecta inmutable)
+ 
+ ├── campaign/    Prototype (plantillas de jornada móvil)
+ 
+ ├── service/     Lógica pura de inventario (sin patrones)
+ 
+ └── app/         Main.java — programa de demostración
